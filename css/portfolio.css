@@ -614,3 +614,32 @@ h2 + .row {
     padding-bottom: 20px;
   }
 }
+
+  /* Kritikos Solar System
+------------------------- */
+.starcom_map {
+    background-color: #333;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#000), to(rgba(34, 34, 34, 0)));
+    background-image: -webkit-linear-gradient(left top, #000, rgba(34, 34, 34, 0));
+    background-image: -moz-linear-gradient(left top, #000, rgba(34, 34, 34, 0));
+    overflow: hidden;
+}
+
+.star {
+  fill: #fff;
+  stroke: rgba(255, 255, 255, .5);
+  stroke-width: .25px;
+}
+
+.defs {
+    height: 0;
+    width:0;
+}
+
+g.planet:hover > path.orbit {
+    stroke-width: 3px;
+}
+g.planet:hover > circle.body {
+    stroke: #AFCADF;
+    stroke-width: 25px;
+}
