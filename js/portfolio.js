@@ -168,9 +168,9 @@
       .startAngle(0)
       .endAngle(6.28318531) // 360 degrees
       .innerRadius(function (d) {
-          return x(d.orbital_radius) - (width/2) - 5; }) // Magic number.
+          return x(d.orbital_radius) - (width/2) - 15; }) // Magic number.
       .outerRadius(function (d) {
-          return x(d.orbital_radius) - (width/2) + 5; }); // Magic number.
+          return x(d.orbital_radius) - (width/2) + 15; }); // Magic number.
 
   planetEnter.append("path")
       .attr("class", "orbit")

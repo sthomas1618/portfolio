@@ -639,7 +639,19 @@ h2 + .row {
 g.planet:hover > path.orbit {
     stroke-width: 3px;
 }
+
 g.planet:hover > circle.body {
     stroke: #AFCADF;
     stroke-width: 25px;
+}
+
+.starcom_label rect {
+  fill: #fff;
+  stroke-width: 2px;
+  stroke: #fff;
+}
+.starcom_label text {
+  font-family: Impact, Charcoal, sans-serif;
+  fill: rgba(202, 228, 235, 0.75);
+  font-size: 36px;
 }
